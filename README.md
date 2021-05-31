@@ -27,9 +27,9 @@
 
 5.now you can push your local repository to github.
   
-  i.by set up in desktop.
+ <t> i.by set up in desktop.
   
-  ii.by using https or ssh url.
+ <t>ii.by using https or ssh url.
 
 6.now inorder to push existing repository from the command line type the following command on your cmd make sure you are in your project directory.
  
@@ -48,7 +48,30 @@
    iv. git add. -> this will added all file to gitignore.<br>
    v. git status<br>
    vi. git rm --cached -r .  -> remove all file from gitignore file.<br>
-   vii. git commit -m "first"<br>
+   vii. git commit -m "first"
 
 2. https://github.com/github/gitignore  you can check out here what are the file that you no need to push into your remote repository.
    accordingly you can add it in your gitignore file.
+   
+# Cloning
+
+1.Go to the repository that you want to clone.<br>
+2.copy url.<br>
+3.go to your local machine.<br>
+4.go to your directory where you want to clone the project.<br>
+5.open cmd type command "git clone {past the coppy url}" hit the enter button.<br>
+6.it will take some time then you can check the project in your local machine.<br>
+7. you can check all the previous commit by hiting the command "git log".<br>
+
+# Branching and Merging
+
+1.go to your local repository.<br>
+2.if you want to create new branch just type "git branch xxxx".<br>
+3.now you can check out what branches you have by just typing "git branch".<br>
+4.now if you wnat to switched into "xxxx" branch simply type "git checkout xxxx".<br>
+5.make some changes in your code type " git add ." --> ' git commit -m "new changes" '.<br>
+6.check "git  log" you can see here all the previous commit branch wise.<br>
+7.now if you are go back to your master branch "git checkout master/main" you can see master branch remain unchange.<br>
+8.if you like to merge changes "git merge master/main".<br>
+9.type "git push origin master -u".<br>
+10.now you can check the file all to your remote repository and for branch go network and check insight.<br>
