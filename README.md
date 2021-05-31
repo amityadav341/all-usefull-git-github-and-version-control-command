@@ -40,15 +40,15 @@
 
 # gitignore
  
--> create gitignore file by typing command
+1.create gitignore file by typing command
   
-   => touch .gitignore
-   => open .gitignore  ->you can write the file name that you want to ignored while pushing the file to remote repository.
-   =>git init
-   =>git add. -> this will added all file to gitignore.
-   =>git status
-   =>git rm --cached -r .  -> remove all file from gitignore file.
-   =>git commit -m "first"
+   i.=> touch .gitignore
+   ii.=> open .gitignore  ->you can write the file name that you want to ignored while pushing the file to remote repository.
+   iii.=>git init
+   iv.=>git add. -> this will added all file to gitignore.
+   v.=>git status
+   vi.=>git rm --cached -r .  -> remove all file from gitignore file.
+   vii.=>git commit -m "first"
 
--> https://github.com/github/gitignore  you can check out here what are the file that you no need to push into your remote repository.
+2. https://github.com/github/gitignore  you can check out here what are the file that you no need to push into your remote repository.
    accordingly you can add it in your gitignore file.
