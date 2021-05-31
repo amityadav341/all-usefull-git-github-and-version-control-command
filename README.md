@@ -33,7 +33,7 @@
 
 6.now inorder to push existing repository from the command line type the following command on your cmd make sure you are in your project directory.
  
-   i. git remote add origin {paste url link of your git hub repositroy}
+   i. git remote add origin {paste url link of your git hub repositroy}.
   ii. git -u origin master/main.   -->this will push your project to github now you can see your project by refreshing github repository page .
 
 
@@ -42,13 +42,13 @@
  
 1.create gitignore file by typing command
   
-   i. touch .gitignore
+   i. touch .gitignore.
    ii. open .gitignore  ->you can write the file name that you want to ignored while pushing the file to remote repository.
-   iii. git init
+   iii. git init.
    iv. git add. -> this will added all file to gitignore.
-   v. git status
+   v. git status.
    vi. git rm --cached -r .  -> remove all file from gitignore file.
-   vii. git commit -m "first"
+   vii. git commit -m "first".
 
 2. https://github.com/github/gitignore  you can check out here what are the file that you no need to push into your remote repository.
    accordingly you can add it in your gitignore file.
