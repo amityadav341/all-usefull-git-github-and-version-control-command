@@ -1,9 +1,6 @@
-# all-usefull-git-github-and-version-control-command
 
+#  Version Control Using Git and the Command Line
 
-
-#  Version Control Using Git and the
-Command Line
 
 1.git init    --> git initialise  (working directory)
 
