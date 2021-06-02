@@ -86,7 +86,7 @@
 
 3.now you can check out what branches you have by just typing "git branch".<br>
 
-4.now if you wnat to switched into "xxxx" branch simply type "git checkout xxxx".<br>
+4.now if you want to switched into "xxxx" branch simply type "git checkout xxxx".<br>
 
 5.make some changes in your code type " git add ." --> ' git commit -m "new changes" '.<br>
 
