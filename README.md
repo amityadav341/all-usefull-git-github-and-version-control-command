@@ -37,7 +37,7 @@
  
    i. git remote add origin {paste url link of your git hub repositroy}.<br>
    
-  ii. git -u origin master/main.   -->this will push your project to github now you can see your project by refreshing github repository page .<br>
+  ii. git push -u origin master/main.   -->this will push your project to github now you can see your project by refreshing github repository page .<br>
 
 
 
